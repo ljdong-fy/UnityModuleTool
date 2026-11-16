@@ -331,7 +331,6 @@ sealed partial class ToolWindow : Form
                         if (removed > 0) Report($"已清理本次新下载的 {removed} 个安装包。");
                     }
                     AppendLog($"安装目录：{editor.Android}");
-                    AppendLog("若 Unity 仍使用自定义工具路径，可在 Edit → Preferences → External Tools 中切换到 Installed with Unity。");
                     Report($"安装完成 · 已安装 {stillMissing.Length} 项 Android 依赖");
                 }
                 RefreshModuleRows(preserveChecks: false);

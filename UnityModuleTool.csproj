@@ -6,5 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>UnityModuleTool</AssemblyName>
+    <DefaultItemExcludes>$(DefaultItemExcludes);dist/**</DefaultItemExcludes>
   </PropertyGroup>
 </Project>
